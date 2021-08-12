@@ -66,7 +66,11 @@
                                                                     display: flex;
                                                                 }
                                                             }
-                                                            
+
+                                                            #video0 {
+                                                                width: 550px;
+                                                            }
+
                                                             #d1 {
                                                                 margin: auto;
                                                                 font-family: 'Cairo', sans-serif;
