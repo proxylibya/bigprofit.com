@@ -1,0 +1,180 @@
+                                                            * {
+                                                                padding: 0;
+                                                                margin: 0;
+                                                            }
+                                                            
+                                                            #bage1body {
+                                                                width: 100%;
+                                                                height: 4500px;
+                                                                background-image: url(img/page1/0.png);
+                                                                background-size: cover;
+                                                            }
+                                                            
+                                                            .h1 {
+                                                                text-align: center;
+                                                                color: rgb(0, 0, 0);
+                                                                background-color: rgb(255, 255, 255);
+                                                                border-top: rgb(0, 0, 0) solid 2px;
+                                                                border-bottom: rgb(0, 0, 0) solid 2px;
+                                                                padding: 5px;
+                                                                position: relative;
+                                                                top: 15px;
+                                                                font-family: 'Amiri', serif;
+                                                                font-family: 'Changa', sans-serif;
+                                                                font-size: 32px;
+                                                            }
+                                                            
+                                                            #marquee {
+                                                                position: relative;
+                                                                bottom: 20px;
+                                                                border: white 1px solid;
+                                                                height: 45px;
+                                                            }
+                                                            
+                                                            .marquee {
+                                                                color: white;
+                                                                font-family: 'Amiri', serif;
+                                                                font-size: 26px;
+                                                            }
+                                                            
+                                                            #back {
+                                                                background-color: rgb(0, 0, 0);
+                                                                color: white;
+                                                                padding: 5px;
+                                                                position: relative;
+                                                                bottom: 80px;
+                                                                left: 15px;
+                                                                border-radius: 5px;
+                                                                display: flex;
+                                                                font-family: 'Cairo', sans-serif;
+                                                                cursor: pointer;
+                                                                transition: 0.5s;
+                                                            }
+                                                            
+                                                            #back:hover {
+                                                                color: rgb(255, 255, 255);
+                                                                background-color: rgb(184, 51, 51);
+                                                            }
+                                                            
+                                                            @media only screen and (min-width:0px) and (max-width:392px) {
+                                                                #back {
+                                                                    background-color: white;
+                                                                    padding: 5px;
+                                                                    position: relative;
+                                                                    bottom: 115px;
+                                                                    border-radius: 5px;
+                                                                    display: flex;
+                                                                }
+                                                            }
+                                                            
+                                                            #d1 {
+                                                                margin: auto;
+                                                                font-family: 'Cairo', sans-serif;
+                                                                font-size: 20px;
+                                                                background-color: rgba(0, 0, 0, 0.808);
+                                                                color: white;
+                                                                width: 450px;
+                                                                height: 50px;
+                                                                line-height: 50px;
+                                                                border: rgb(255, 255, 255) 5px;
+                                                                border-radius: 8px;
+                                                            }
+                                                            
+                                                            #d2 {
+                                                                margin: auto;
+                                                                font-family: 'Cairo', sans-serif;
+                                                                font-size: 28px;
+                                                                background-color: rgba(0, 0, 0, 0.726);
+                                                                color: white;
+                                                                width: 410px;
+                                                                height: 60px;
+                                                                border: rgb(255, 255, 255) 5px;
+                                                                border-radius: 8px;
+                                                            }
+                                                            
+                                                            #d3 {
+                                                                margin: auto;
+                                                                background-image: url(img/page1/1.png);
+                                                                width: 50%;
+                                                                height: 500px;
+                                                                background-size: cover;
+                                                                border: black 5px;
+                                                                border-radius: 8px;
+                                                            }
+                                                            
+                                                            .d3 {
+                                                                margin: auto;
+                                                                font-family: 'Cairo', sans-serif;
+                                                                font-size: 20px;
+                                                                background-color: rgba(0, 0, 0, 0.726);
+                                                                color: white;
+                                                                width: 580px;
+                                                                height: 60px;
+                                                                line-height: 60px;
+                                                                border: rgb(255, 255, 255) 5px;
+                                                                border-radius: 8px;
+                                                            }
+                                                            
+                                                            #d4 {
+                                                                margin: auto;
+                                                                background-image: url(img/page1/2.png);
+                                                                width: 50%;
+                                                                height: 500px;
+                                                                background-size: cover;
+                                                                border: black 5px;
+                                                                border-radius: 8px;
+                                                            }
+                                                            
+                                                            #d5 {
+                                                                margin: auto;
+                                                                background-image: url(img/page1/3.png);
+                                                                width: 50%;
+                                                                height: 500px;
+                                                                background-size: cover;
+                                                                border: black 5px;
+                                                                border-radius: 8px;
+                                                            }
+                                                            
+                                                            .d5 {
+                                                                margin: auto;
+                                                                font-family: 'Cairo', sans-serif;
+                                                                font-size: 20px;
+                                                                background-color: rgba(0, 0, 0, 0.726);
+                                                                color: white;
+                                                                width: 580px;
+                                                                height: 60px;
+                                                                line-height: 60px;
+                                                                border: rgb(255, 255, 255) 5px;
+                                                                border-radius: 8px;
+                                                            }
+                                                            
+                                                            #d6 {
+                                                                margin: auto;
+                                                                font-family: 'Cairo', sans-serif;
+                                                                font-size: 16px;
+                                                                background-color: rgba(0, 0, 0, 0.726);
+                                                                color: white;
+                                                                width: 580px;
+                                                                height: 60px;
+                                                                line-height: 60px;
+                                                                border: rgb(255, 255, 255) 5px;
+                                                                border-radius: 8px;
+                                                            }
+                                                            
+                                                            .button2 button {
+                                                                background-color: rgb(255, 123, 0);
+                                                                color: rgb(0, 0, 0);
+                                                                border-radius: 10px;
+                                                                position: relative;
+                                                                margin: auto;
+                                                                width: 300px;
+                                                                font-family: 'Cairo', sans-serif;
+                                                                font-size: 28px;
+                                                            }
+                                                            
+                                                            #ads1 {
+                                                                width: 300px;
+                                                                height: 250px;
+                                                                background-color: rgb(71, 132, 189);
+                                                                margin: auto;
+                                                            }

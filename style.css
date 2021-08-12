@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 2500px;
+    padding: 0;
+    margin: 0;
+    background-image: url(8.png);
+    background-size: cover;
+}
+
+#div1 {
+    padding: 0;
+    position: relative;
+    bottom: 36px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.856);
+    border-bottom: white solid 5px;
+    cursor: pointer;
+}
+
+.main article {
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    border-radius: 10px;
+    border: solid 0.5px rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+.main article:hover {
+    width: 82%;
+    height: 253px;
+    border: solid 0.5px rgb(255, 0, 0);
+}
+
+.art1 {
+    width: 1000px;
+    height: 250px;
+    background-color: royalblue;
+    background-image: url(art1c.png);
+    background-size: cover;
+}
+
+.art2 {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(94, 13, 13);
+    margin: auto;
+    background-image: url(art0.png);
+}
+
+.art3 {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(66, 79, 117);
+    background-image: url(art0.png);
+}
+
+.art4 {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(97, 16, 204);
+    background-image: url(art0.png);
+}
+
+.art5 {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(49, 34, 5);
+    background-image: url(art0.png);
+}
+
+.art6 {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(20, 241, 0);
+    background-image: url(art0.png);
+}
+
+.art7 {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(255, 0, 0);
+    background-image: url(art0.png);
+}
+
+.art8 {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(111, 134, 25);
+    background-image: url(art0.png);
+}
+
+.h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
