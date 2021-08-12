@@ -39,7 +39,7 @@
                                                             
                                                             #back {
                                                                 background-color: rgb(0, 0, 0);
-                                                                color: black;
+                                                                color: white;
                                                                 padding: 5px;
                                                                 position: relative;
                                                                 bottom: 80px;
@@ -58,7 +58,7 @@
                                                             
                                                             @media only screen and (min-width:0px) and (max-width:561px) {
                                                                 #back {
-                                                                    background-color: white;
+                                                                    background-color: black;
                                                                     padding: 5px;
                                                                     position: relative;
                                                                     bottom: 180px;
