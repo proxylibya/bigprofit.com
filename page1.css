@@ -52,13 +52,18 @@
                                                             }
                                                             
                                                             #back:hover {
-                                                                color: rgb(255, 255, 255);
-                                                                background-color: rgb(184, 51, 51);
+                                                                color: rgb(0, 0, 0);
+                                                                background-color: rgb(255, 255, 255);
                                                             }
                                                             
-                                                            @media only screen and (min-width:0px) and (max-width:561px) {
+                                                            #video0 {
+                                                                width: 550px;
+                                                            }
+                                                            
+                                                            @media only screen and (min-width:0px) and (max-width:980px) {
                                                                 #back {
-                                                                    background-color: black;
+                                                                    background-color: rgb(0, 0, 0);
+                                                                    color: white;
                                                                     padding: 5px;
                                                                     position: relative;
                                                                     bottom: 180px;
@@ -66,18 +71,14 @@
                                                                     display: flex;
                                                                 }
                                                             }
-
-                                                            #video0 {
-                                                                width: 550px;
-                                                            }
-
+                                                            
                                                             #d1 {
                                                                 margin: auto;
                                                                 font-family: 'Cairo', sans-serif;
-                                                                font-size: 20px;
+                                                                font-size: 14px;
                                                                 background-color: rgba(0, 0, 0, 0.808);
                                                                 color: white;
-                                                                width: 450px;
+                                                                width: 300px;
                                                                 height: 50px;
                                                                 line-height: 50px;
                                                                 border: rgb(255, 255, 255) 5px;
@@ -99,7 +100,7 @@
                                                             #d3 {
                                                                 margin: auto;
                                                                 background-image: url(img/page1/1.png);
-                                                                width: 50%;
+                                                                width: 80%;
                                                                 height: 500px;
                                                                 background-size: cover;
                                                                 border: black 5px;
@@ -112,7 +113,7 @@
                                                                 font-size: 20px;
                                                                 background-color: rgba(0, 0, 0, 0.726);
                                                                 color: white;
-                                                                width: 580px;
+                                                                width: 260px;
                                                                 height: 60px;
                                                                 line-height: 60px;
                                                                 border: rgb(255, 255, 255) 5px;
@@ -122,7 +123,7 @@
                                                             #d4 {
                                                                 margin: auto;
                                                                 background-image: url(img/page1/2.png);
-                                                                width: 50%;
+                                                                width: 80%;
                                                                 height: 500px;
                                                                 background-size: cover;
                                                                 border: black 5px;
@@ -132,7 +133,7 @@
                                                             #d5 {
                                                                 margin: auto;
                                                                 background-image: url(img/page1/3.png);
-                                                                width: 50%;
+                                                                width: 80%;
                                                                 height: 500px;
                                                                 background-size: cover;
                                                                 border: black 5px;
@@ -142,10 +143,10 @@
                                                             .d5 {
                                                                 margin: auto;
                                                                 font-family: 'Cairo', sans-serif;
-                                                                font-size: 20px;
+                                                                font-size: 18px;
                                                                 background-color: rgba(0, 0, 0, 0.726);
                                                                 color: white;
-                                                                width: 580px;
+                                                                width: 550px;
                                                                 height: 60px;
                                                                 line-height: 60px;
                                                                 border: rgb(255, 255, 255) 5px;
@@ -155,10 +156,10 @@
                                                             #d6 {
                                                                 margin: auto;
                                                                 font-family: 'Cairo', sans-serif;
-                                                                font-size: 16px;
-                                                                background-color: rgba(0, 0, 0, 0.726);
-                                                                color: white;
-                                                                width: 580px;
+                                                                font-size: 22px;
+                                                                background-color: rgb(0, 0, 0);
+                                                                color: rgb(255, 255, 255);
+                                                                width: 430px;
                                                                 height: 60px;
                                                                 line-height: 60px;
                                                                 border: rgb(255, 255, 255) 5px;
@@ -166,15 +167,18 @@
                                                             }
                                                             
                                                             .button2 button {
-                                                                background-color: rgb(255, 123, 0);
-                                                                color: rgb(0, 0, 0);
+                                                                background-color: rgb(255, 0, 0);
+                                                                color: rgb(255, 255, 255);
                                                                 border-radius: 10px;
                                                                 position: relative;
                                                                 margin: auto;
                                                                 width: 300px;
                                                                 font-family: 'Cairo', sans-serif;
                                                                 font-size: 28px;
+                                                                transition: 1s;
                                                             }
+                                                            
+                                                            .button2 button:hover {}
                                                             
                                                             #ads1 {
                                                                 width: 300px;
