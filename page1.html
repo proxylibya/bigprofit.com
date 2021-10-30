@@ -16,7 +16,42 @@
 
 <body id="bage1body">
     <br><br>
-
+    
+    <script defer type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "7e2dd9f0f3b1ec009bfadaea524d4767",
+    "excludeDomains": [
+        "yourowndomain.com"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "entryScript": {
+        "type": "timeout",
+        "timeout": "1500",
+        "capping": {
+            "limit": 5,
+            "timeout": 24
+        }
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script> 
+   
     <marquee id="marquee" behavior="scroll" scrollamount="11" bgcolor="red" direction="right">
         <h2 class="marquee">من أفضل المواقع للربح اليومي والسحب على بنك بايير أو غيره من وسائل الدفع , من مميزات الموقع الدفع عالي وأيضا المهام كثيرة جدا تصل لألاف المهام فقط أتبع الشرح و بعد ذلك يمكنك الضغط على زر التسجيل في أسفل الصفحة </h2>
     </marquee>
