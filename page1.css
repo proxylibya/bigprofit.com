@@ -206,7 +206,8 @@
                                     }
 
                                     #ads-01 {
-    display: block;
+    display: flex;
+                                  
     margin: auto;
 }
                                     
