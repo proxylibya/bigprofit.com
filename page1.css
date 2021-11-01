@@ -106,6 +106,14 @@
                                             margin: auto;
                                             background-color: rgba(0, 0, 0, 0.808);
                                         }
+                                      
+                                      
+                                                                      .ads-0051 {
+    display: flex;
+    padding-top                              
+    margin: auto;
+}
+                                      
                                     }
                                     
                                     #d1 {
@@ -208,14 +216,14 @@
                                         color: white;
                                     }
 
-                                    #ads-01 {
+                                    .ads-0050 {
     display: flex;
                                   
     margin: auto;
 }
 
 
-                                    #ads-02 {
+                                    .ads-0051 {
     display: flex;
                                   
     margin: auto;
