@@ -99,7 +99,10 @@
                                         }
                                       
                                       #ads-02 {
+                                        display : flex;
+                                        margin: auto;
                                         padding-top : 15px;
+                                      }
                                       
                                         #v3 {
                                             width: 280px;
