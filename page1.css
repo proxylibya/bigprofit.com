@@ -202,7 +202,7 @@
                                     .button2 button:hover {
                                         transition: 1s;
                                         background-color: rgb(21, 233, 102);
-                                        color: darkblue;
+                                        color: white;
                                     }
 
                                     #ads-01 {
@@ -214,7 +214,7 @@
 #ads-02 {display: flex;
                                   
     margin: auto;
-  
+}
                                     
                           
                       
