@@ -204,39 +204,13 @@
                                         background-color: rgb(21, 233, 102);
                                         color: darkblue;
                                     }
+
+                                    #ads-01 {
+    display: block;
+    margin: auto;
+}
                                     
-                                    #ads1 {
-                                        width: 300px;
-                                        height: 250px;
-                                        background-color: rgb(71, 132, 189);
-                                        margin: auto;
-                                    }
-                                    
-                                    #ads2 {
-                                        width: 300px;
-                                        height: 250px;
-                                        background-color: rgb(71, 132, 189);
-                                        margin: auto
-                                    }
-                                    
-                                    #ads3 {
-                                      display: block;
-                                        width: 250px;
-                                        height: 250px;
-                                        background-color: rgb(71, 132, 189);
-                                        margin: auto
-                                    }
-                                    
-                                    #ads4 {
-                                        width: 300px;
-                                        height: 250px;
-                                        background-color: rgba(71, 132, 189, 0.329);
-                                        margin: auto
-                                    }
-                                    
-                                    #ads5 {
-                                        width: 320px;
-                                        height: 100px;
-                                        background-color: rgba(71, 132, 189, 0.329);
-                                        margin: auto
-                                    }
+                          
+                      
+
+
