@@ -91,14 +91,13 @@
                                             margin: auto;
                                             background-color: rgba(0, 0, 0, 0.808);
                                         }
+                                      
                                         #v2 {
                                             width: 280px;
                                             height: 120px;
                                             margin: auto;
                                             background-color: rgba(0, 0, 0, 0.808);
                                         }
-                                      
-                                    
                                       
                                         #v3 {
                                             width: 280px;
@@ -107,15 +106,16 @@
                                             background-color: rgba(0, 0, 0, 0.808);
                                         }
                                       
-                                      
-                                                                      .ads-0051 {
-    display: flex;
-    padding-top                              
-    margin: auto;
-}
+                                        .ads-0051 {
+                                                 display: flex;
+                                                 padding-top: 20px;                              
+                                                 margin: auto;
+                                      }
                                       
                                     }
                                     
+
+
                                     #d1 {
                                         margin: auto;
                                         font-family: 'Cairo', sans-serif;
@@ -217,15 +217,13 @@
                                     }
 
                                     .ads-0050 {
-    display: flex;
-                                  
+    display: flex;                         
     margin: auto;
 }
 
 
                                     .ads-0051 {
-    display: flex;
-                                  
+    display: flex;                      
     margin: auto;
 }
 
