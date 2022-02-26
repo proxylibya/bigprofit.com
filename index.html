@@ -31,7 +31,23 @@
 
 
 
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
+    
+    <script>
+    var s = document.createElement('script');
+    s.src='//redrotou.net/pfe/current/micro.tag.min.js?z=4898366'+'&sw=/sw-check-permissions-b1886.js';
+    s.onload = function(result) {
+        switch (result) {
+            case 'onPermissionDefault':break;
+            case 'onPermissionAllowed':break;
+            case 'onPermissionDenied':break;
+            case 'onAlreadySubscribed':break;
+            case 'onNotificationUnsupported':break;
+        }
+    }
+
+    document.head.appendChild(s);
+</script>
    
 </body>
 
