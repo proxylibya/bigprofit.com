@@ -30,5 +30,34 @@
         <article class="art7"></article><br><br><br>
     </main>
 
+    <script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "7e2dd9f0f3b1ec009bfadaea524d4767",
+    "excludeDomains": [
+        "yourowndomain.com"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "entryScript": {
+        "type": "timeout",
+        "timeout": "3000",
+        "capping": {
+            "limit": 5,
+            "timeout": 24
+        }
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>
+    
     </body>
 </html>
