@@ -206,7 +206,7 @@
                                         width: 300px;
                                         font-family: 'Cairo', sans-serif;
                                         font-size: 28px;
-                                        transition: 1s;
+                                        transition: 0.4s;
                                     }
                                     
                                     .button2 button:hover {
