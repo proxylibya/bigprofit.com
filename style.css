@@ -12,6 +12,10 @@ body {
     background-size: cover;
 }
 
+.ad01adheader{
+    z-index: 1500;
+}
+
 #div1 {
     padding: 0;
     position: relative;
