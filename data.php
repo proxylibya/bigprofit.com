@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h6>Redirect <span id="countdown">10</span> seconds</h6>
+<script type="text/javascript">
+    var seconds = 5;
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            window.location = "https://google.com/";
+        } else {
+            document.getElementById("countdown").innerHTML = seconds;
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    countdown();   
+</script>
+</body>
+</html>
